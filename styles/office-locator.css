@@ -1,0 +1,210 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.Homepage_Content{
+    display: flex;
+    justify-content: center;
+}
+
+.content .offices{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 60px 60px 60px 60px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+    width: 100%;
+    height: auto;
+}
+
+.content .offices .heading{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #404040;
+} 
+
+.content .offices ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+.content .offices ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: none;    
+}
+
+.content .offices ul li .country_name{
+    position: relative;
+    width: 100%;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #404040;
+}
+
+.content .offices ul li .divider{
+    width: 100%;
+    height: 1px;
+    background-color: #d7d7d7;
+}
+
+.content .offices ul li ul{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px 30px;
+    width: 100%;
+    height: auto;
+}
+
+.content .offices ul li ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    height: auto;
+}
+
+.content .offices ul li ul li .city_name{
+    position: relative;
+    width: 100%;
+    text-align: left;
+    font-size: 1.125rem;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffc000;
+}
+
+.content .offices ul li ul li .address{
+    position: relative;
+    width: 100%;
+    text-align: left;
+    font-size: 0.875rem;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #222;
+}
+
+.content .offices ul li ul li .contact{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.content .offices ul li ul li .contact .contact_content{
+    display: flex;
+    gap: 10px;
+}
+
+.content .offices ul li ul li .contact .contact_content .title{
+    position: relative;
+    width: 60px;
+    text-align: left;
+    font-size: 0.875rem;
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #222;
+}
+
+.content .offices ul li ul li .contact .contact_content .descriptions{
+    position: relative;
+    width: fit-content;
+    text-align: left;
+    font-size: 0.875rem;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #222;
+}
+
+
+@media screen and (max-width: 1224px) { 
+    
+    .content .offices .heading{
+        font-size: 2.25rem;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .content .offices .heading{
+        font-size: 2rem;
+    }
+    .content .offices ul li ul{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width: 786px) {
+
+    .content .offices{
+        padding: 30px;
+    }
+
+    .content .offices .heading{
+        font-size: 1.875rem;
+    }
+
+    .content .offices ul li ul{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}
+
+@media screen and (max-width: 480px){
+
+    .content .offices .heading{
+        font-size: 2rem;
+    }
+    .content .offices{
+        padding: 20px;
+    }
+    
+}

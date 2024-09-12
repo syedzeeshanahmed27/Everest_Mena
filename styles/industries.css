@@ -1,0 +1,273 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.Homepage_Content{
+    display: flex;
+    background-image: url(https://econsultingfirm.com/assets/Content_industries.png);
+    background-attachment: fixed;
+    background-size: 100%;
+    justify-content: center;
+}
+
+.content .industries{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    height: auto;
+}
+
+.content .industries .heading{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+}
+
+
+.content .industries .industries_list{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.content .industries .industries_list .industries_grid{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px 30px;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.content .industries .industries_list .industries_grid li{
+    list-style: none;
+    position: relative;
+    width: 100%;
+    max-width: 280px;
+    height: 360px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.content .industries .industries_list .industries_grid li .industry_card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.content .industries .industries_list .industries_grid .industry_card .industries_card{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.content .industries .industries_list .industries_grid .industry_card .industries_card .industry_content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.content .industries .industries_list .industries_grid .industry_card .industries_card .industry_content .image{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.content .industries .industries_list .industries_grid .industry_card .industries_card .industry_content .image .card_image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.content .industries .industries_list .industries_grid .industry_card .industries_card .industry_content .card_content {
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    height: 60px;
+    padding: 16px;    
+    background-color:#ffc000;
+    transition: 0.8s ease-in-out;
+}
+
+.content .industries .industries_list .industries_grid .industry_card .industries_card .industry_content .card_content .card_text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+.content .industries .industries_list .industries_grid .industry_card .industries_card .industry_content .card_content .card_text .industry_heading{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 32px;
+    flex-grow: 0;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #222;
+}
+
+.content .industries .industries_list .industries_grid .industry_card .industries_card .industry_content .card_content .card_text .industries_description{
+    position: relative;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222;
+}
+
+.content .industries .industries_list .industries_grid .industry_card .industries_card:hover .industry_content .card_content{
+    top: 0px;
+    height: 360px;
+}
+
+.content .industries .industries_list .industries_grid .industry_card .industries_card .industry_content .card_content2 {
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    height: 60px;
+    padding: 4px 16px 16px 16px;    
+    background-color:#ffc000;
+    transition: 0.8s ease-in-out;
+}
+
+.content .industries .industries_list .industries_grid .industry_card .industries_card .industry_content .card_content2 .card_text2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+.content .industries .industries_list .industries_grid .industry_card .industries_card .industry_content .card_content2 .card_text2 .industry_heading2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 32px;
+    flex-grow: 0;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #222;
+}
+
+.content .industries .industries_list .industries_grid .industry_card .industries_card .industry_content .card_content2 .card_text2 .industries_description2{
+    position: relative;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222;
+}
+
+.content .industries .industries_list .industries_grid .industry_card .industries_card:hover .industry_content .card_content2{
+    top: 0px;
+    height: 360px;
+}
+
+
+@media screen and (max-width: 1224px) {  
+
+    .content .industries .heading{
+        font-size: 2.25rem;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .content .industries .heading{
+        font-size: 2rem;
+    }
+
+    .content .industries .industries_list .industries_grid{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+}
+
+@media screen and (max-width: 786px) {
+    
+    .content .industries .heading{
+        font-size: 1.875rem;
+    }
+
+    .content .industries .industries_list .industries_grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+@media screen and (max-width: 480px){
+
+    .content .industries .heading{
+        font-size: 2rem;
+    }
+
+    .content .industries .industries_list .industries_grid{
+        grid-template-columns: repeat(1,280px);
+    }
+
+}
+

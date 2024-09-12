@@ -1,0 +1,203 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.Homepage_Content{
+    display: flex;
+    background-image: url(https://econsultingfirm.com/assets/Hero_Sections/Contact_us.png);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.content{
+    align-items: center;
+}
+
+.content .contact{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: center;
+    padding: 60px 120px 60px 120px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(3px);
+    width: fit-content;
+    height: auto;
+}
+
+.content .contact .right_side{
+    display: none;
+}
+
+.content .contact .right_side img{
+    width: 400px;
+    height: 335px;
+}
+
+.content .contact .left_side{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+} 
+
+.content .contact .left_side .heading{
+    position: relative;
+    width: 100%;
+    text-align: left;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+}
+
+.content .contact .left_side .tag_line{
+    position: relative;
+    max-width: 400px;
+    text-align: left;
+    font-size: 0.75rem;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+}
+.content .contact .left_side form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.input_fields{
+    max-width: 400px;
+    width: 100%;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: #fff;
+}
+
+.input_fields:focus{
+    border: 2px solid #fff;
+}
+
+.input_fields::placeholder{
+    color: #fff
+}
+
+textarea{
+    max-width: 400px;
+    max-height: 200px;
+    min-height: 100px;
+}
+
+.submit_btn{
+    max-width: 400px;
+    width: 100%;
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    margin: 0px;
+    border-radius: 8px;
+    background-color: #ffc000;
+    font-size: 1rem;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #404040;
+    transition: 0.4s ease-in-out;
+}
+
+.submit_btn:hover{
+    color: #fff;
+}
+
+
+@media screen and (max-width: 1224px) {  
+
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .content .contact .right_side img{
+        width: 300px;
+        height: 250px;
+    }
+
+    .content .contact{
+        padding: 30px 60px;
+    }
+}
+
+@media screen and (max-width: 786px) {
+
+    .content .contact .right_side{
+        display: none;
+    }
+
+    .content .contact .right_side img{
+        width: 200px;
+        height: 170px;
+    }
+
+    .content .contact .left_side .tag_line{
+        max-width: 100%;
+    }
+
+    .input_fields{
+        max-width: 100%;
+    }
+
+    .submit_btn{
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+
+    .content .contact{
+        padding: 30px;
+    }
+    
+    .content .contact .left_side .heading{
+        font-size: 2.25rem;
+    }
+    
+}
