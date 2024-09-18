@@ -204,7 +204,8 @@ li{
     grid-gap: 30px 30px;
     justify-content: center;
     width: 100%;
-    height: auto;
+justify-items: center; 
+   height: auto;
 }
 
 .content .services .services_list li{
