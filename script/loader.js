@@ -66,7 +66,7 @@ var nav_bar_code = `<nav>
             <li><a href="https://econsultingfirm.com/industries" class="Industries">Industries</a></li>
             <li><a href="https://econsultingfirm.com/about" class="about">About</a></li>
             <li><a href="https://econsultingfirm.com/careers" class="careers">Careers</a></li>
-            <li><a href="https://econsultingfirm.com/rfp-form" class="rfp_from">Submit RFP</a></li>
+            <li><a href="https://econsultingfirm.com/rfp-form" class="rfp_from">Submit RFPp</a></li>
         </ul>
         <div class="language_selector" onclick="choose_language(1)">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
