@@ -225,13 +225,7 @@ var nav_bar_code = `<nav>
         <li class="heading">
             <span class="title">Services</span>
             <ul class="links">
-                <li class="link_text">
-                    <a href="https://econsultingfirm.com/services/accounting">Accounting</a>
-                </li>
-                <li class="link_text">
-                    <a href="https://econsultingfirm.com/services/tax">Tax</a>
-                </li>
-                <li class="link_text">
+               <li class="link_text">
                     <a href="https://econsultingfirm.com/services/consulting">Consulting</a>
                 </li>
                 <li class="link_text">
