@@ -27,23 +27,7 @@ var nav_bar_code = `<nav>
                             </li>
                             <li class="dropdown_center">
                                 <ul class="center_content">
-                                    <li class="dropdown_services_list">
-                                        <a href="https://econsultingfirm.com/services/accounting" class="services_link">
-                                            <div class="service_shape"></div>
-                                            <div class="dropdown_service">
-                                                <span class="title">Accounting</span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="dropdown_services_list">
-                                        <a href="https://econsultingfirm.com/services/tax" class="services_link">
-                                            <div class="service_shape"></div>
-                                            <div class="dropdown_service">
-                                                <span class="title">Tax</span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="dropdown_services_list">
+                                 <li class="dropdown_services_list">
                                         <a href="https://econsultingfirm.com/services/consulting" class="services_link">
                                             <div class="service_shape"></div>
                                             <div class="dropdown_service">
