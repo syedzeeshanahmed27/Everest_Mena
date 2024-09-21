@@ -48,7 +48,7 @@ function googleTranslateElementInit() {
 
 
     (function(){
-        emailjs.init("YOUR_USER_ID"); // Replace with your EmailJS user ID
+        emailjs.init("wordpressdeveloper.supersoft@gmail.com"); // Replace with your EmailJS user ID
     })();
 
     function sendEmail(event) {
@@ -57,7 +57,7 @@ function googleTranslateElementInit() {
         const form = document.getElementById('rfpForm');
         const formData = new FormData(form);
 
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData)
+        emailjs.sendForm('service_y89yn1f', 'template_20rmzcj', formData)
             .then((result) => {
                 console.log('Email sent successfully:', result.text);
                 alert('Your request has been sent successfully!');
