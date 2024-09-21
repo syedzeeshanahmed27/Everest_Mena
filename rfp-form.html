@@ -161,21 +161,27 @@
     })();
 
     function sendEmail(event) {
-        event.preventDefault(); // Prevent the default form submission
+    event.preventDefault(); // Prevent the default form submission
 
-        const form = document.getElementById('rfpForm');
-        const formData = new FormData(form);
-        console.log("formData",formData)
+    const form = document.getElementById('rfpForm');
+    const formData = new FormData(form);
 
-        emailjs.sendForm('service_y89yn1f', 'template_20rmzcj', formData)
-            .then((result) => {
-                console.log('Email sent successfully:', result.text);
-                alert('Your request has been sent successfully!');
-            }, (error) => {
-                console.error('Error sending email:', error);
-                alert('An error occurred while sending your request. Please try again.');
-            });
-    }
+    // Console log each form data field and value
+    console.log("Form Data:");
+    formData.forEach((value, key) => {
+        console.log(key + ": " + value);
+    });
+
+    emailjs.sendForm('service_y89yn1f', 'template_20rmzcj', form)
+        .then((result) => {
+            console.log('Email sent successfully:', result.text);
+            alert('Your request has been sent successfully!');
+        }, (error) => {
+            console.error('Error sending email:', error);
+            alert('An error occurred while sending your request. Please try again.');
+        });
+}
+
     </script>
 </body>
 
