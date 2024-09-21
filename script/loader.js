@@ -36,6 +36,14 @@ var nav_bar_code = `<nav>
                                         </a>
                                     </li>
                                     <li class="dropdown_services_list">
+                                        <a href="https://econsultingfirm.com/Insights/defending-against-cyber" class="services_link">
+                                            <div class="service_shape"></div>
+                                            <div class="dropdown_service">
+                                                <span class="title">Cyber Threats</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown_services_list">
                                         <a href="https://econsultingfirm.com/services/managed-services" class="services_link">
                                             <div class="service_shape"></div>
                                             <div class="dropdown_service">
