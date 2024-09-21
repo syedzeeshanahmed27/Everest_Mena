@@ -46,6 +46,29 @@ function googleTranslateElementInit() {
 }
 
 
+
+    (function(){
+        emailjs.init("YOUR_USER_ID"); // Replace with your EmailJS user ID
+    })();
+
+    function sendEmail(event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        const form = document.getElementById('rfpForm');
+        const formData = new FormData(form);
+
+        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData)
+            .then((result) => {
+                console.log('Email sent successfully:', result.text);
+                alert('Your request has been sent successfully!');
+            }, (error) => {
+                console.error('Error sending email:', error);
+                alert('An error occurred while sending your request. Please try again.');
+            });
+    }
+
+
+
   function Navbar(){
     var nav = `<nav>
     <div class="wrapper">
