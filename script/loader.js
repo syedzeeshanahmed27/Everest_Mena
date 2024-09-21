@@ -39,7 +39,7 @@ var nav_bar_code = `<nav>
                                         <a href="https://econsultingfirm.com/Insights/defending-against-cyber" class="services_link">
                                             <div class="service_shape"></div>
                                             <div class="dropdown_service">
-                                                <span class="title">Cyber Threats</span>
+                                                <span class="title">Cyber Security</span>
                                             </div>
                                         </a>
                                     </li>
@@ -237,7 +237,7 @@ var nav_bar_code = `<nav>
                     <a href="https://econsultingfirm.com/services/consulting">Consulting</a>
                 </li>
                 <li class="link_text">
-                    <a href="https://econsultingfirm.com/Insights/defending-against-cyber">Cyber Threats</a>
+                    <a href="https://econsultingfirm.com/Insights/defending-against-cyber">Cyber Security</a>
                 </li>
                 <li class="link_text">
                     <a href="https://econsultingfirm.com/services/managed-services">Managed Services</a>
