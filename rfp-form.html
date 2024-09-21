@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="https://econsultingfirm.com/styles/rfp-form.css?dev=01">
         <link rel="stylesheet" href="https://econsultingfirm.com/styles/main.css?dev=01">
         <script src="https://econsultingfirm.com/script/Script.js?dev=01"></script>
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
         <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
         <link rel="icon" href="https://econsultingfirm.com/assets/Fav_Light.png" type="image/x-icon" media="(prefers-color-scheme: light)">
         <link rel="icon" href="https://econsultingfirm.com/assets/Fav_Dark.png" type="image/x-icon" media="(prefers-color-scheme: dark)">
@@ -50,7 +51,7 @@
                         <span class="resume">Resumes and job inquiries should be sent through our <a href="./careers.html" class="careers">Careers site</a>.</span>
                        </div>
                        <span class="disclaimer">Fields marked with an asterisk (*) are required.</span>
-                       <form action="https://api.web3forms.com/submit" method="POST" class="form">
+                       <form id="rfpForm" action="https://api.web3forms.com/submit" method="POST" class="form" onsubmit="sendEmail(event)">
                         <input type="hidden" name="access_key" value="f2628b36-f062-4fbd-8e25-7f06e62270cd">
                             <div class="section">
                                 <div class="partition">
