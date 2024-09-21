@@ -56,6 +56,7 @@ function googleTranslateElementInit() {
 
         const form = document.getElementById('rfpForm');
         const formData = new FormData(form);
+        console.log("formData",formData)
 
         emailjs.sendForm('service_y89yn1f', 'template_20rmzcj', formData)
             .then((result) => {
