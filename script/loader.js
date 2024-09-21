@@ -237,6 +237,9 @@ var nav_bar_code = `<nav>
                     <a href="https://econsultingfirm.com/services/consulting">Consulting</a>
                 </li>
                 <li class="link_text">
+                    <a href="https://econsultingfirm.com/Insights/defending-against-cyber">Cyber Threats</a>
+                </li>
+                <li class="link_text">
                     <a href="https://econsultingfirm.com/services/managed-services">Managed Services</a>
                 </li>
             </ul>
