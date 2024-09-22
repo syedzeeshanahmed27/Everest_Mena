@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     
-    $to = "taimoorzxt@gmail.com";  
+    $to = "rfp@econsultingfirm.com";  
     $subject = "New Form Submission";  
     $body = "
         Title: $title
