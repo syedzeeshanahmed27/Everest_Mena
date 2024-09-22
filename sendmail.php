@@ -1,6 +1,5 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    
     $title = $_POST['titles'];
     $name = $_POST['name'];
     $job = isset($_POST['job']) ? $_POST['job'] : '';  
@@ -11,29 +10,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $industry = $_POST['industries'];
     $acceptance = isset($_POST['Acceptance']) ? 'Yes' : 'No';
 
-    
     if (isset($_FILES['file']) && $_FILES['file']['error'] == 0) {
         $file_name = $_FILES['file']['name'];
         $file_tmp = $_FILES['file']['tmp_name'];
         $file_size = $_FILES['file']['size'];
         $file_type = $_FILES['file']['type'];
 
-        
         if ($file_size > 10485760) {
-            echo "File size exceeds 10 MB limit.";
+            http_response_code(400); // Bad request
+            echo "File size exceeds the 10 MB limit.";
             exit;
         }
 
-        
         $upload_dir = "uploads/";
         move_uploaded_file($file_tmp, $upload_dir . $file_name);
     } else {
         $file_name = "No attachment";
     }
 
-    
-    $to = "rfp@econsultingfirm.com";  
-    $subject = "New Form Submission";  
+    $to = "rfp@econsultingfirm.com";
+    $subject = "New Form Submission";
     $body = "
         Title: $title
         Name: $name
@@ -47,13 +43,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         Attachment: $file_name
     ";
 
-    
     $headers = "From: $email\r\n";
 
-    
     if (mail($to, $subject, $body, $headers)) {
+        http_response_code(200); // OK
         echo "Email successfully sent!";
     } else {
+        http_response_code(500); // Internal server error
         echo "Failed to send email.";
     }
 }
