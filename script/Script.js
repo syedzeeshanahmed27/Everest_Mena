@@ -1,3 +1,31 @@
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault();  
+
+    var form = document.getElementById("contactForm");
+    var formData = new FormData(form);
+
+    
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "sendmail.php", true);
+
+    
+    xhr.onload = function() {
+        var messageElement = document.getElementById("formMessage");
+        if (xhr.status === 200) {
+            messageElement.textContent = "Email successfully sent!";
+            messageElement.style.color = "green";
+            form.reset();
+        } else {
+            messageElement.textContent = "Failed to send email.";
+            messageElement.style.color = "red";
+        }
+        messageElement.style.display = "block"; 
+    };
+
+    
+    xhr.send(formData);
+});
+
 window.addEventListener("scroll",function(){
     var nav = document.querySelector("nav");
     nav.classList.toggle("sticky",window.scrollY>0)
