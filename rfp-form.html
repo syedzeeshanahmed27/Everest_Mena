@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>RFP-Form</title> 
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://econsultingfirm.com/styles/rfp-form.css?dev=01">
-        <link rel="stylesheet" href="https://econsultingfirm.com/styles/main.css?dev=01">
-        <script src="https://econsultingfirm.com/script/Script.js?dev=01"></script>
-        <script src="./script/loader.js?dev=01"></script>
-        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-        <link rel="icon" href="https://econsultingfirm.com/assets/Fav_Light.png" type="image/x-icon" media="(prefers-color-scheme: light)">
-        <link rel="icon" href="https://econsultingfirm.com/assets/Fav_Dark.png" type="image/x-icon" media="(prefers-color-scheme: dark)">
-    </head>
+
+<head>
+    <title>RFP-Form</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://econsultingfirm.com/styles/rfp-form.css?dev=01">
+    <link rel="stylesheet" href="https://econsultingfirm.com/styles/main.css?dev=01">
+    <script src="https://econsultingfirm.com/script/Script.js?dev=01"></script>
+    <script src="./script/loader.js?dev=01"></script>
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <link rel="icon" href="https://econsultingfirm.com/assets/Fav_Light.png" type="image/x-icon"
+        media="(prefers-color-scheme: light)">
+    <link rel="icon" href="https://econsultingfirm.com/assets/Fav_Dark.png" type="image/x-icon"
+        media="(prefers-color-scheme: dark)">
+</head>
+
 <body>
     <header id="navbar">
     </header>
@@ -20,172 +25,209 @@
         <div class="Hero_section">
             <div class="hero_section">
                 <div class="hero_image">
-                    <img src="https://econsultingfirm.com/assets/cyber.jpg" alt="" class="industries_image">
+                    <img src="https://econsultingfirm.com/assets/cyber.jpg" alt class="industries_image">
                 </div>
                 <div class="Heading">
                     <span class="tag_line">
-                    Submit RFP
-                  </span>
-                  <span class="tag_text">
-                    Let’s Shape the Future Together 
-                  </span>
+                        Submit RFP
+                    </span>
+                    <span class="tag_text">
+                        Let’s Shape the Future Together
+                    </span>
                 </div>
-            </div>    
+            </div>
         </div>
-            <div class="Homepage_Content">
-                <div class="content">
-                    <div class="form_section">
-                       <div class="heading_section">
+        <div class="Homepage_Content">
+            <div class="content">
+                <div class="form_section">
+                    <div class="heading_section">
                         <span class="heading_label">Submit RFP</span>
                         <div class="heading">
-                            <span class="heading1">Request for proposal for our services</span>
-                            <span class="heading2">Unlock the full potential of your business with our expertise</span>
+                            <span class="heading1">Request for proposal for
+                                our services</span>
+                            <span class="heading2">Unlock the full potential
+                                of your business with our expertise</span>
                         </div>
                         <span class="description">
-                            Thank you for considering Everest's member firm services!<br><br>
+                            Thank you for considering Everest's member firm
+                            services!<br><br>
 
-                            To expedite the processing of your request, please take a few moments to complete this brief form. Uploading relevant documents is optional but can help us understand your needs better.<br><br>
-                            
-                            Please note: This mailbox is dedicated solely to receiving qualified proposals for Everest's services. For any other inquiries, kindly visit our dedicated <a href="./contact-us.html" class="contact">Contact Us</a> page.
+                            To expedite the processing of your request,
+                            please take a few moments to complete this brief
+                            form. Uploading relevant documents is optional
+                            but can help us understand your needs
+                            better.<br><br>
+
+                            Please note: This mailbox is dedicated solely to
+                            receiving qualified proposals for Everest's
+                            services. For any other inquiries, kindly visit
+                            our dedicated <a href="./contact-us.html" class="contact">Contact Us</a> page.
                         </span>
-                        <span class="resume">Resumes and job inquiries should be sent through our <a href="./careers.html" class="careers">Careers site</a>.</span>
-                       </div>
-                       <span class="disclaimer">Fields marked with an asterisk (*) are required.</span>
-                       <form id="contactForm" action="sendmail.php" method="POST" enctype="multipart/form-data" class="form" >
-                        <input type="hidden" name="access_key" value="f2628b36-f062-4fbd-8e25-7f06e62270cd">
-                            <div class="section">
-                                <div class="partition">
-                                    <span class="part_number">1</span>
-                                    <span class="part_heading">Your Details</span>
-                                    <div class="divider"></div>
-                                </div>
-                                <div class="fields">
-                                    <div class="inputs">
-                                        <label for="titles"><b>*</b>Title</label>
-                                        <select name="titles" id="id_title" class="input_fields" required>
-                                            <option value="placeholder">Select title</option>
-                                            <option value="Mr">Mr.</option>
-                                            <option value="Mrs">Mrs.</option>
-                                            <option value="Miss">Miss.</option>
-                                            <option value="prof">Prof.</option>
-                                            <option value="dr">Dr.</option>
-                                        </select>
-                                    </div>
-                                    <div class="inputs">
-                                        <label for="name"><b>*</b>Name</label>
-                                        <input type="text" name="name" class="input_fields" required>
-                                    </div>
-                                    <div class="inputs">
-                                        <label for="job"><b></b>Job Title</label>
-                                        <input type="text" name="job" class="input_fields">
-                                    </div>
-                                    <div class="inputs">
-                                        <label for="email"><b>*</b>Email</label>
-                                        <input type="email" name="email" class="input_fields" required>
-                                    </div>
-                                    <div class="inputs">
-                                        <label for="phone"><b></b>Phone Number</label>
-                                        <input type="number" name="phone_number" class="input_fields">
-                                    </div>
-                                </div> 
-                            </div>
-                            <div class="section">
-                                <div class="partition">
-                                    <span class="part_number">2</span>
-                                    <span class="part_heading">Company Details</span>
-                                    <div class="divider"></div>
-                                </div>
-                                <div class="fields">
-                                    <div class="inputs">
-                                        <label for="company"><b></b>Company/Organization name</label>
-                                        <input type="text" name="company_name" class="input_fields">
-                                    </div>
-                                    <div class="inputs">
-                                        <label for="country"><b></b>Country name</label>
-                                        <input type="text" name="country_name" class="input_fields">
-                                    </div>
-                                    <div class="inputs">
-                                        <label for="industry"><b>*</b>Industry</label>
-                                        <select name="industries" id="id_industry" class="input_fields" required>
-                                            <option value="placeholder">Select Industry</option>
-                                            <option value="agriculture">Agriculture</option>
-                                            <option value="consumer_business">Consumer business</option>
-                                            <option value="energy_resources">Energy & Resources</option>
-                                            <option value="financial_services ">Financial Services </option>
-                                            <option value="Manufacturing">Manufacturing</option>
-                                            <option value="not_for_profit">Not-For-Profit Organization</option>
-                                            <option value="private_equality">Private Equality</option>
-                                            <option value="professional_services">Professional Services</option>
-                                            <option value="public_sector">Public Sector</option>
-                                            <option value="real_estate_construction">Real Estate & Construction</option>
-                                            <option value="technology_media">Technology, Media & Telecom</option>
-                                        </select>
-                                    </div>
-                                </div> 
-                            </div>
-                            <div class="section">
-                                <div class="partition">
-                                    <span class="part_number">3</span>
-                                    <span class="part_heading">Additional Information</span>
-                                    <div class="divider"></div>
-                                </div>
-                                <span class="attachment_disclaimer">Please note that the total size of your attachment(s) must not exceed 10 Mb. Appropriate attachment types are ".doc, .pdf, .ppt, .txt, .xlsx, and .zip".</span>
-                                <div class="fields">
-                                    <div class="inputs">
-                                        <label for="attachment"><b></b>Attachment</label>
-                                        <input type="file" name="file" class="input_fields" accept=".doc, .pdf, .ppt, .txt, .xlsx, .zip">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="acceptance_section">
-                                <label for="acceptance"><b>*</b>Acceptance</label>
-                                <div class="checkbox_input">
-                                    <input type="checkbox" name="Acceptance" class="input_fields">
-                                    <span class="acceptance_required">Acceptance required</span>
-                                </div>
-                            </div>
-                            <button type="submit" class="submit_btn">Submit</button>
-                            <p id="formMessage" style="display: none;"></p>
-                       </form>
-
+                        <span class="resume">Resumes and job inquiries
+                            should be sent through our <a href="./careers.html" class="careers">Careers site</a>.</span>
                     </div>
+                    <span class="disclaimer">Fields marked with an asterisk
+                        (*) are required.</span>
+                    <form id="contactForm" action="sendmail.php" method="POST" enctype="multipart/form-data"
+                        class="form">
+                        <input type="hidden" name="access_key" value="f2628b36-f062-4fbd-8e25-7f06e62270cd">
+                        <div class="section">
+                            <div class="partition">
+                                <span class="part_number">1</span>
+                                <span class="part_heading">Your
+                                    Details</span>
+                                <div class="divider"></div>
+                            </div>
+                            <div class="fields">
+                                <div class="inputs">
+                                    <label for="titles"><b>*</b>Title</label>
+                                    <select name="titles" id="id_title" class="input_fields" required>
+                                        <option value="placeholder">Select
+                                            title</option>
+                                        <option value="Mr">Mr.</option>
+                                        <option value="Mrs">Mrs.</option>
+                                        <option value="Miss">Miss.</option>
+                                        <option value="prof">Prof.</option>
+                                        <option value="dr">Dr.</option>
+                                    </select>
+                                </div>
+                                <div class="inputs">
+                                    <label for="name"><b>*</b>Name</label>
+                                    <input type="text" name="name" class="input_fields" required>
+                                </div>
+                                <div class="inputs">
+                                    <label for="job"><b></b>Job
+                                        Title</label>
+                                    <input type="text" name="job" class="input_fields">
+                                </div>
+                                <div class="inputs">
+                                    <label for="email"><b>*</b>Email</label>
+                                    <input type="email" name="email" class="input_fields" required>
+                                </div>
+                                <div class="inputs">
+                                    <label for="phone"><b></b>Phone
+                                        Number</label>
+                                    <input type="number" name="phone_number" class="input_fields">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section">
+                            <div class="partition">
+                                <span class="part_number">2</span>
+                                <span class="part_heading">Company
+                                    Details</span>
+                                <div class="divider"></div>
+                            </div>
+                            <div class="fields">
+                                <div class="inputs">
+                                    <label for="company"><b></b>Company/Organization
+                                        name</label>
+                                    <input type="text" name="company_name" class="input_fields">
+                                </div>
+                                <div class="inputs">
+                                    <label for="country"><b></b>Country
+                                        name</label>
+                                    <input type="text" name="country_name" class="input_fields">
+                                </div>
+                                <div class="inputs">
+                                    <label for="industry"><b>*</b>Industry</label>
+                                    <select name="industries" id="id_industry" class="input_fields" required>
+                                        <option value="placeholder">Select
+                                            Industry</option>
+                                        <option value="agriculture">Agriculture</option>
+                                        <option value="consumer_business">Consumer
+                                            business</option>
+                                        <option value="energy_resources">Energy
+                                            & Resources</option>
+                                        <option value="financial_services ">Financial
+                                            Services </option>
+                                        <option value="Manufacturing">Manufacturing</option>
+                                        <option value="not_for_profit">Not-For-Profit
+                                            Organization</option>
+                                        <option value="private_equality">Private
+                                            Equality</option>
+                                        <option value="professional_services">Professional
+                                            Services</option>
+                                        <option value="public_sector">Public
+                                            Sector</option>
+                                        <option value="real_estate_construction">Real
+                                            Estate & Construction</option>
+                                        <option value="technology_media">Technology,
+                                            Media & Telecom</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section">
+                            <div class="partition">
+                                <span class="part_number">3</span>
+                                <span class="part_heading">Additional
+                                    Information</span>
+                                <div class="divider"></div>
+                            </div>
+                            <span class="attachment_disclaimer">Please note
+                                that the total size of your attachment(s)
+                                must not exceed 10 Mb. Appropriate
+                                attachment types are
+                                ".doc, .pdf, .ppt, .txt, .xlsx, and .zip".</span>
+                            <div class="fields">
+                                <div class="inputs">
+                                    <label for="attachment"><b></b>Attachment</label>
+                                    <input type="file" name="file" class="input_fields"
+                                        accept=".doc, .pdf, .ppt, .txt, .xlsx, .zip">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="acceptance_section">
+                            <label for="acceptance"><b>*</b>Acceptance</label>
+                            <div class="checkbox_input">
+                                <input type="checkbox" name="Acceptance" class="input_fields">
+                                <span class="acceptance_required">Acceptance
+                                    required</span>
+                            </div>
+                        </div>
+                        <button type="submit" class="submit_btn">Submit</button>
+                        <p id="formMessage" style="display: none;"></p>
+                    </form>
+
                 </div>
             </div>
-            <div id="footer_content">
-            </div>
+        </div>
+        <div id="footer_content">
+        </div>
     </div>
 
     <script>
-        document.getElementById("contactForm").addEventListener("submit", function(event) {
-    event.preventDefault();  
+        document.getElementById("contactForm").addEventListener("submit", function (event) {
+            event.preventDefault();
 
-    var form = document.getElementById("contactForm");
-    var formData = new FormData(form);
+            var form = document.getElementById("contactForm");
+            var formData = new FormData(form);
 
-    
-    var xhr = new XMLHttpRequest();
-    xhr.open("POST", "sendmail.php", true);
 
-    
-    xhr.onload = function() {
-        var messageElement = document.getElementById("formMessage");
-        if (xhr.status === 200) {
-            messageElement.textContent = "Email successfully sent!";
-            messageElement.style.color = "green";
-            form.reset();
-        } else {
-            messageElement.textContent = "Failed to send email.";
-            messageElement.style.color = "red";
-        }
-        messageElement.style.display = "block"; 
-    };
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "sendmail.php", true);
 
-    
-    xhr.send(formData);
-});
+
+            xhr.onload = function () {
+                var messageElement = document.getElementById("formMessage");
+                if (xhr.status === 200) {
+                    messageElement.textContent = "Email successfully sent!";
+                    messageElement.style.color = "green";
+                    form.reset();
+                } else {
+                    messageElement.textContent = "Failed to send email.";
+                    messageElement.style.color = "red";
+                }
+                messageElement.style.display = "block";
+            };
+
+
+            xhr.send(formData);
+        });
 
     </script>
-        
+
 </body>
 
 </html>
