@@ -156,16 +156,16 @@
     <script src="./script/loader.js?dev=01"></script>
     <script>
 document.getElementById("contactForm").addEventListener("submit", function(event) {
-    event.preventDefault();  // Prevent default form submission
+    event.preventDefault();  
 
     var form = document.getElementById("contactForm");
     var formData = new FormData(form);
 
-    // Create an AJAX request
+    
     var xhr = new XMLHttpRequest();
     xhr.open("POST", "sendmail.php", true);
 
-    // Handle the response
+    
     xhr.onload = function() {
         var messageElement = document.getElementById("formMessage");
         if (xhr.status === 200) {
@@ -175,10 +175,10 @@ document.getElementById("contactForm").addEventListener("submit", function(event
             messageElement.textContent = "Failed to send email.";
             messageElement.style.color = "red";
         }
-        messageElement.style.display = "block";  // Show the message
+        messageElement.style.display = "block"; 
     };
 
-    // Send the form data
+    
     xhr.send(formData);
 });
 </script>
