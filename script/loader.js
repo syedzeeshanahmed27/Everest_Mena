@@ -60,8 +60,8 @@ var nav_bar_code = `<nav>
                                         <a href="https://econsultingfirm.com/services/consulting" class="right_list_item">Cybersecurity</a>
                                         <a href="https://econsultingfirm.com/services/consulting" class="right_list_item">Resilience</a>
                                         <a href="https://econsultingfirm.com/services/consulting" class="right_list_item">Digital Transformation</a>
-                                      <!--  <a href="https://econsultingfirm.com/services/accounting" class="right_list_item">Accounting And Assurance</a> -->
-                                       <!--   <a href="https://econsultingfirm.com/services/tax" class="right_list_item">Tax Management</a>-->
+                                        <a href="https://econsultingfirm.com/services/accounting" class="right_list_item">Accounting And Assurance</a> 
+                                         <a href="https://econsultingfirm.com/services/tax" class="right_list_item">Tax Management</a>
                                         <a href="https://econsultingfirm.com/services/managed-services" class="right_list_item">Trusted Alliances</a>
                                     </div>
                                 </div>
@@ -177,8 +177,8 @@ var nav_bar_code = `<nav>
                                         <a href="https://econsultingfirm.com/services/consulting" class="right_list_item">Cybersecurity</a>
                                         <a href="https://econsultingfirm.com/services/consulting" class="right_list_item">Resilience</a>
                                         <a href="https://econsultingfirm.com/services/consulting" class="right_list_item">Digital Transformation</a>
-                                       <!-- <a href="https://econsultingfirm.com/services/accounting" class="right_list_item">Accounting And Assurance</a>
-                                        <a href="https://econsultingfirm.com/services/tax" class="right_list_item">Tax Management</a> -->
+                                        <a href="https://econsultingfirm.com/services/accounting" class="right_list_item">Accounting And Assurance</a>
+                                        <a href="https://econsultingfirm.com/services/tax" class="right_list_item">Tax Management</a> 
                                         <a href="https://econsultingfirm.com/services/managed-services" class="right_list_item">Trusted Alliances</a>
                                     </div>
                                 </div>
