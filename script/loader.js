@@ -287,6 +287,27 @@ var nav_bar_code = `<nav>
                 </li>
             </ul>
         </li>
+   <li class="heading">
+            <span class="title">Location</span>
+            <ul class="links">           
+        <li class="link_text">
+            <a class="title">United Arab Emirates</a>
+            <a>Al Olaya, Riyadh 12212, Saudi Arabia</a>
+            <a href="tel:+966 53 529 5011">Phone: +966 53 529 5011 </a>
+        </li>
+        <li class="link_text">
+            <a class="title">Pakistan</a>
+            <a>B7, Crystal Court, Street 5, Block 5 Clifton, Karachi, Karachi City, Sindh
+</a>
+             <a href="tel:0334 3336050">Phone:0334 3336050 </a>
+        </li>
+        <li class="link_text">
+            <a class="title">Canada</a>
+            <a>1180 Dorval Dr #114, Oakville, ON L6M 3G1</a>
+             <a href="tel:(587) 896-8445">Phone:(587) 896-8445</a>
+        </li>
+            </ul>
+        </li>
     </ul>
     <div class="company_rights">
         <span class="copyright">© 2024 Everest Consulting. All rights reserved</span>
