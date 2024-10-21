@@ -291,7 +291,7 @@ var nav_bar_code = `<nav>
             <span class="title">Location</span>
             <ul class="links">           
         <li class="link_text">
-            <a class="title">United Arab Emirates</a>
+            <a class="title">Saudi Arabia </a>
             <a>Al Olaya, Riyadh 12212, Saudi Arabia</a>
             <a href="tel:+966 53 529 5011">Phone: +966 53 529 5011 </a>
         </li>
