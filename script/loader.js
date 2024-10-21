@@ -291,20 +291,29 @@ var nav_bar_code = `<nav>
             <span class="title">Location</span>
             <ul class="links">           
         <li class="link_text">
-            <a class="title">Saudi Arabia </a>
+            <a style="
+    color: #ffc000;
+    font-weight: 600;
+">Saudi Arabia </a>
             <a>Al Olaya, Riyadh 12212, Saudi Arabia</a>
             <a href="tel:+966 53 529 5011">Phone: +966 53 529 5011 </a>
         </li>
         <li class="link_text">
-            <a class="title">Pakistan</a>
+            <a style="
+    color: #ffc000;
+    font-weight: 600;
+">Pakistan</a>
             <a>B7, Crystal Court, Street 5, Block 5 Clifton, Karachi, Karachi City, Sindh
 </a>
              <a href="tel:0334 3336050">Phone: +92 334 3336050 </a>
         </li>
         <li class="link_text">
-            <a class="title">North America</a>
+            <a style="
+    color: #ffc000;
+    font-weight: 600;
+">North America</a>
             <a>1180 Dorval Dr #114, Oakville, ON L6M 3G1</a>
-             <a href="tel:(587) 896-8445">Phone: 587 896-8445</a>
+             <a href="tel:(587) 896-8445">Phone: +1 587 896-8445</a>
         </li>
             </ul>
         </li>
