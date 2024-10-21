@@ -299,12 +299,12 @@ var nav_bar_code = `<nav>
             <a class="title">Pakistan</a>
             <a>B7, Crystal Court, Street 5, Block 5 Clifton, Karachi, Karachi City, Sindh
 </a>
-             <a href="tel:0334 3336050">Phone:0334 3336050 </a>
+             <a href="tel:0334 3336050">Phone: 0334 3336050 </a>
         </li>
         <li class="link_text">
             <a class="title">Canada</a>
             <a>1180 Dorval Dr #114, Oakville, ON L6M 3G1</a>
-             <a href="tel:(587) 896-8445">Phone:(587) 896-8445</a>
+             <a href="tel:(587) 896-8445">Phone: (587) 896-8445</a>
         </li>
             </ul>
         </li>
