@@ -32,13 +32,14 @@ html{
 
 .content{
     position: relative;
-    display: flex;
+    display: grid;
     flex-direction: column;
     gap: 60px;
     width: 100%;
+    grid-template-columns: repeat(2, 1fr);
     max-width: 1440px;
     height: auto;
-    padding: 60px 120px 120px 120px;
+    padding: 60px 40px 120px 40px;
 }
 
 /* Sidebar CSS */
