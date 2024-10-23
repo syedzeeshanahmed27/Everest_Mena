@@ -312,10 +312,10 @@ var nav_bar_code = `<nav>
     font-weight: 600;
 ">Asia : Pakistan </a>
              <a href="tel:0334 3336050">+92 334 3336050 </a>
-           <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+       <a>      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="20" height="20" rx="10" fill="white"></rect>
   <path d="M10 2C7.24 2 5 4.24 5 7C5 10.77 10 18 10 18C10 18 15 10.77 15 7C15 4.24 12.76 2 10 2ZM10 9.25C8.76 9.25 7.75 8.24 7.75 7C7.75 5.76 8.76 4.75 10 4.75C11.24 4.75 12.25 5.76 12.25 7C12.25 8.24 11.24 9.25 10 9.25Z" fill="#222222"></path>
-</svg> <a>B7, Crystal Court, Street 5, Block 5 Clifton, Karachi, Karachi City, Sindh
+</svg> B7, Crystal Court, Street 5, Block 5 Clifton, Karachi, Karachi City, Sindh
 </a>
         </li>
        
