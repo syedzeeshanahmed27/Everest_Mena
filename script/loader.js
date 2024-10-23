@@ -296,7 +296,7 @@ var nav_bar_code = `<nav>
                         font-weight: 600;
                     ">North America : Canada & USA</a>   
                               <div style="display:inline-flex">   <i class="fas fa-phone"
-                                   style="color: white; padding-right: 10px;"></i>  <a style="
+                                   style="color: white; font-size: small; padding-right: 10px;"></i>  <a style="
             color: #fff;"  href="tel:(587)&nbsp;896-8445">+1 587&nbsp;896-8445</a> </div> <div style="display:inline-flex">
                                      <i class="fas fa-map-marker-alt"
                                  style="color: white; padding-right: 10px;"></i><a style="
@@ -311,12 +311,12 @@ var nav_bar_code = `<nav>
 
  </a> 
  <div style="display:inline-flex">
- <i class="fas fa-phone"
- style="color: white; padding-right: 10px;"></i> <a style="
+ <i class="fas fa-phone" 
+ style="color: white; font-size: small; padding-right: 10px;"></i> <a style="
             color: #fff;" href="tel:+966&nbsp;53&nbsp;529&nbsp;5011">+966&nbsp;53&nbsp;529&nbsp;5011 </a>
  </div> <div style="display:inline-flex">
  <i class="fas fa-map-marker-alt"
- style="color: white; padding-right: 10px;"></i><a style="
+ style="color: white; padding-right: 10px; font-size: small;"></i><a style="
             color: #fff;">  Al Olaya, Riyadh 12212, Saudi Arabia</a> </div>
         </li>
         <li class="link_text">
@@ -327,11 +327,11 @@ var nav_bar_code = `<nav>
 </a>
 <div style="display:inline-flex">
 <i class="fas fa-phone"
-style="color: white; padding-right: 10px;"></i> <a style="
+style="color: white; font-size: small; padding-right: 10px;"></i> <a style="
             color: #fff;" href="tel:0334&nbsp;3336050"> +92 334&nbsp;3336050 </a>
  </div>    <div style="display:inline-flex">    
                 <i class="fas fa-map-marker-alt"
-                style="color: white; padding-right: 10px;"></i><a style="
+                style="color: white;  font-size: small; padding-right: 10px;"></i><a style="
             color: #fff;">B7, Crystal Court, Street 5, Block 5 Clifton, Karachi, Karachi City, Sindh
 </a> </div> 
 
