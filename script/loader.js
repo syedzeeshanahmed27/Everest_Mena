@@ -289,32 +289,54 @@ var nav_bar_code = `<nav>
         </li>
    <li class="heading">
             <span class="title">Location</span>
-            <ul class="links">           
+         <ul class="links"> 
+                            <li class="link_text">
+                             <a style="
+                        color: #ffc000;
+                        font-weight: 600;
+                    ">North America : Canada & USA</a>   
+                              <div style="display:inline-flex">   <i class="fas fa-phone"
+                                   style="color: white; padding-right: 10px;"></i>  <a style="
+            color: #fff;"  href="tel:(587)&nbsp;896-8445">+1 587&nbsp;896-8445</a> </div> <div style="display:inline-flex">
+                                     <i class="fas fa-map-marker-alt"
+                                 style="color: white; padding-right: 10px;"></i><a style="
+            color: #fff;" >1180 Dorval Dr #114, Oakville, ON, L6M 3G1</a> </div> 
+                            </li>
+                                  
         <li class="link_text">
             <a style="
     color: #ffc000;
     font-weight: 600;
-">Saudi Arabia </a>
-            <a>Al Olaya, Riyadh 12212, Saudi Arabia</a>
-            <a href="tel:+966 53 529 5011">Phone: +966 53 529 5011 </a>
+">Middle East :  KSA, Bahrain Qatar & UAE
+
+ </a> 
+ <div style="display:inline-flex">
+ <i class="fas fa-phone"
+ style="color: white; padding-right: 10px;"></i> <a style="
+            color: #fff;" href="tel:+966&nbsp;53&nbsp;529&nbsp;5011">+966&nbsp;53&nbsp;529&nbsp;5011 </a>
+ </div> <div style="display:inline-flex">
+ <i class="fas fa-map-marker-alt"
+ style="color: white; padding-right: 10px;"></i><a style="
+            color: #fff;">  Al Olaya, Riyadh 12212, Saudi Arabia</a> </div>
         </li>
         <li class="link_text">
             <a style="
     color: #ffc000;
     font-weight: 600;
-">Pakistan</a>
-            <a>B7, Crystal Court, Street 5, Block 5 Clifton, Karachi, Karachi City, Sindh
+">Asia : Pakistan 
 </a>
-             <a href="tel:0334 3336050">Phone: +92 334 3336050 </a>
+<div style="display:inline-flex">
+<i class="fas fa-phone"
+style="color: white; padding-right: 10px;"></i> <a style="
+            color: #fff;" href="tel:0334&nbsp;3336050"> +92 334&nbsp;3336050 </a>
+ </div>    <div style="display:inline-flex">    
+                <i class="fas fa-map-marker-alt"
+                style="color: white; padding-right: 10px;"></i><a style="
+            color: #fff;">B7, Crystal Court, Street 5, Block 5 Clifton, Karachi, Karachi City, Sindh
+</a> </div> 
+
         </li>
-        <li class="link_text">
-            <a style="
-    color: #ffc000;
-    font-weight: 600;
-">North America</a>
-            <a>1180 Dorval Dr #114, Oakville, ON L6M 3G1</a>
-             <a href="tel:(587) 896-8445">Phone: +1 587 896-8445</a>
-        </li>
+    
             </ul>
         </li>
     </ul>
