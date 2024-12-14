@@ -295,7 +295,7 @@ var nav_bar_code = `<nav>
     color: #ffc000;
     font-weight: 600;
 ">North America : Canada & USA</a>
-             <a href="tel:(587) 896-8445">+1 587 896-8445</a>
+             <a href="tel:(306) 590-0056">+1 306 590-0056 </a>
             <a>1180 Dorval Dr #114, Oakville, ON L6M 3G1</a>
         </li>         
         <li class="link_text">
