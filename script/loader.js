@@ -303,8 +303,8 @@ var nav_bar_code = `<nav>
     color: #ffc000;
     font-weight: 600;
 ">Middle East : KSA, Bahrain Qatar & UAE</a>
-             <a Bahrain <br></br>
-             href="tel:(973) 3458-1142">+973 3458-1142 </a>
+             <a Bahrain <br></br> </a>
+            <a href="tel:(973) 3458-1142">+973 3458-1142 </a>
             <a>ESEC Consulting W.L.L (Everest Consulting Global)
 BCCI Tower 2nd Floor, Office number 21, Building number 519, Road 1010, Block 410, Manama - kingdom of Bahrain</a>
 <a href="tel:(973) 3458-1142">+973 3458-1142 </a>
