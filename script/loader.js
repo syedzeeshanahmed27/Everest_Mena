@@ -324,7 +324,7 @@ var nav_bar_code = `<nav>
     </ul>
     <div class="company_rights">
         <span class="copyright">© 2025 Everest Consulting. All rights reserved</span>
-        <a href="https://ivsolutions.tech/" target="_blank" class="developers_link"><span class="developers">By AWISPO</span></a>
+        <a href="https://www.awispo.com/" target="_blank" class="developers_link"><span class="developers">By AWISPO</span></a>
     </div>
 </footer>`
 
