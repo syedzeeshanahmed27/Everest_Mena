@@ -303,11 +303,11 @@ var nav_bar_code = `<nav>
     color: #ffc000;
     font-weight: 600;
 ">Middle East : KSA, Bahrain Qatar & UAE</a>
-             <a Bahrain <br></br> </a>
-            <a href="tel:(973) 3458-1142">+973 3458-1142 </a>
         
+            <a href="tel:(973) 3458-1142">+973 3458-1142 </a>
+        <a>BCCI Tower 2nd Floor, Office number 21, Building number 519, Road 1010, Block 410, Manama - kingdom of Bahrain</a>
 <a href="tel:(966) 53529-5011">+966 523529-5011 </a>
-            <a>l Olaya, Riyadh 12212, Saudi Arabia</a>
+            <a>0l Olaya, Riyadh 12212, Saudi Arabia</a>
         </li>         
         <li class="link_text">
             <a style="
