@@ -306,8 +306,8 @@ var nav_bar_code = `<nav>
         
             <a href="tel:(973) 3458-1142">+973 3458-1142 </a>
         <a>BCCI Tower 2nd Floor, Office number 21, Building number 519, Road 1010, Block 410, Manama - kingdom of Bahrain</a>
+        <br>
 <a href="tel:(966) 53529-5011">+966 523529-5011 </a>
-<br></br>
             <a>0l Olaya, Riyadh 12212, Saudi Arabia</a>
         </li>         
         <li class="link_text">
