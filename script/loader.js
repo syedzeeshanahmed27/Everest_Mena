@@ -302,20 +302,10 @@ var nav_bar_code = `<nav>
             <a style="
     color: #ffc000;
     font-weight: 600;
-">Middle East :  KSA, Bahrain Qatar & UAE</a>
-</a> <br><br>
- <i class="fas fa-phone"
- style="color: white; padding-right: 10px;"></i> <a style="
-            color: #fff;" href="tel:+973&nbsp;34&nbsp;581&nbsp;142">+973&nbsp;34&nbsp;581&nbsp;142 </a>
- <br>
- <i class="fas fa-map-marker-alt"
- style="color: white; padding-right: 10px;"></i><a style="
-            color: #fff;"> 
-     ESEC Consulting W.L.L (Everest Consulting Global) <br></br>BCCI Tower 2nd Floor, Office number  21, Building number  519, Road 1010, Block  410,
-        Manama - kingdom of Bahrain
-            <a href="tel:+966 53 529 5011">+966 53 529 5011 </a>
-            <a>Al Olaya, Riyadh 12212, Saudi Arabia</a>
-        </li>
+">Middle East : KSA, Bahrain Qatar & UAE</a>
+             <a href="tel:(973) 3458-1142">+973 3458-1142 </a>
+            <a>1180 Dorval Dr #114, Oakville, ON L6M 3G1</a>
+        </li>         
         <li class="link_text">
             <a style="
     color: #ffc000;
