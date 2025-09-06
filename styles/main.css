@@ -677,6 +677,14 @@ nav.sticky .logo1{
     height: 50px; 
 }
 
+
+
+.logo1{
+    width: 230px;
+    height: 110px;
+    
+}
+
 nav.sticky .language_selector .text{
     color: #404040;
 }

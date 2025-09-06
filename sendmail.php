@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $file_name = "No attachment";
     }
 
-    $to = "rfp@econsultingfirm.com";
+    $to = "rfp@everestmena.com";
     $subject = "New Form Submission";
     $body = "
         Title: $title
