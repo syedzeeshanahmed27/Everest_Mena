@@ -324,7 +324,7 @@ var nav_bar_code = `<nav>
         </li>
     </ul>
     <div class="company_rights">
-        <span class="copyright">© 2025 Everest Consulting. All rights reserved</span>
+        <span class="copyright">© 2025 Everest Mena. All rights reserved</span>
         <a href="https://www.awispo.com/" target="_blank" class="developers_link"><span class="developers">By AWISPO</span></a>
     </div>
 </footer>`
@@ -332,3 +332,4 @@ var nav_bar_code = `<nav>
 
 document.getElementById("navbar").innerHTML = nav_bar_code;
 document.getElementById("footer_content").innerHTML = footer_code;
+
