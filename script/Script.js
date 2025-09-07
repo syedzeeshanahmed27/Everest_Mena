@@ -50,14 +50,14 @@ function googleTranslateElementInit() {
     var nav = `<nav>
     <div class="wrapper">
         <div class="logos">
-            <a href="https://everestmena.com/"><img src="./assets/Logo_1.png" alt="" class="logo1"></a>
+            <a href="./"><img src="./assets/Logo_1.png" alt="" class="logo1"></a>
         </div>
         <ul class="navlinks">
-            <li><a href="https://everestmena.com/" class="home">Home</a></li>
+            <li><a href="./" class="home">Home</a></li>
             <li>
                 <div class="dropdown_navlink">
                     <button class="services_btn">
-                        <span>Services</span><img src="https://everestmena.com/assets/down_icon.png" alt="" class="downicon">
+                        <span>Services</span><img src="./assets/down_icon.png" alt="" class="downicon">
                     </button>
                         <ul class="dropdown">
                             <li class="dropdown_leftside">
@@ -70,13 +70,13 @@ function googleTranslateElementInit() {
                                         through assurance and help
                                          clients transform, grow and
                                          operate.</span>
-                                         <a href="https://everestmena.com/#id_service" class="explore_btn">Explore</a>
+                                         <a href="./#id_service" class="explore_btn">Explore</a>
                                 </div>
                             </li>
                             <li class="dropdown_center">
                                 <ul class="center_content">
                                     <li class="dropdown_services_list">
-                                        <a href="https://everestmena.com/services/accounting" class="services_link">
+                                        <a href="./services/accounting" class="services_link">
                                             <div class="service_shape"></div>
                                             <div class="dropdown_service">
                                                 <span class="title">Accounting</span>
@@ -84,7 +84,7 @@ function googleTranslateElementInit() {
                                         </a>
                                     </li>
                                     <li class="dropdown_services_list">
-                                        <a href="https://everestmena.com/services/tax" class="services_link">
+                                        <a href="./services/tax" class="services_link">
                                             <div class="service_shape"></div>
                                             <div class="dropdown_service">
                                                 <span class="title">Tax</span>
@@ -92,7 +92,7 @@ function googleTranslateElementInit() {
                                         </a>
                                     </li>
                                     <li class="dropdown_services_list">
-                                        <a href="https://everestmena.com/services/consulting" class="services_link">
+                                        <a href="./services/consulting" class="services_link">
                                             <div class="service_shape"></div>
                                             <div class="dropdown_service">
                                                 <span class="title">Consulting</span>
@@ -100,7 +100,7 @@ function googleTranslateElementInit() {
                                         </a>
                                     </li>
                                     <li class="dropdown_services_list">
-                                        <a href="https://everestmena.com/services/managed-services" class="services_link">
+                                        <a href="./services/managed-services" class="services_link">
                                             <div class="service_shape"></div>
                                             <div class="dropdown_service">
                                                 <span class="title">Managed Services</span>
@@ -113,12 +113,12 @@ function googleTranslateElementInit() {
                                 <div class="right_content">
                                     <span class="dropdown_heading">Highlights</span>
                                     <div class="right_list">    
-                                        <a href="https://everestmena.com/services/consulting" class="right_list_item">Cybersecurity</a>
-                                        <a href="https://everestmena.com/services/consulting" class="right_list_item">Resilience</a>
-                                        <a href="https://everestmena.com/services/consulting" class="right_list_item">Digital Transformation</a>
-                                        <a href="https://everestmena.com/services/accounting" class="right_list_item">Accounting And Assurance</a>
-                                        <a href="https://everestmena.com/services/tax" class="right_list_item">Tax Management</a>
-                                        <a href="https://everestmena.com/services/managed-services" class="right_list_item">Trusted Alliances</a>
+                                        <a href="./services/consulting" class="right_list_item">Cybersecurity</a>
+                                        <a href="./services/consulting" class="right_list_item">Resilience</a>
+                                        <a href="./services/consulting" class="right_list_item">Digital Transformation</a>
+                                        <a href="./services/accounting" class="right_list_item">Accounting And Assurance</a>
+                                        <a href="./services/tax" class="right_list_item">Tax Management</a>
+                                        <a href="./services/managed-services" class="right_list_item">Trusted Alliances</a>
                                     </div>
                                 </div>
                             </li>
@@ -126,11 +126,11 @@ function googleTranslateElementInit() {
                 </div>
                 
             </li>
-            <li><a href="https://everestmena.com/insights" class="insights">Insights</a></li>
-            <li><a href="https://everestmena.com/industries" class="Industries">Industries</a></li>
-            <li><a href="https://everestmena.com/about" class="about">About</a></li>
-            <li><a href="https://everestmena.com/careers" class="careers">Careers</a></li>
-            <li><a href="https://everestmena.com/rfp-form" class="rfp_from">Submit RFP</a></li>
+            <li><a href="./insights" class="insights">Insights</a></li>
+            <li><a href="./industries" class="Industries">Industries</a></li>
+            <li><a href="./about" class="about">About</a></li>
+            <li><a href="./careers" class="careers">Careers</a></li>
+            <li><a href="./rfp-form" class="rfp_from">Submit RFP</a></li>
         </ul>
         <div class="language_selector" onclick="choose_language(1)">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -171,11 +171,11 @@ function googleTranslateElementInit() {
             <a href="javascript:void(0)" class="closesidebar" onclick="togglesidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
         </div>
         <ul class="navlinks">
-            <li><a href="https://everestmena.com/" class="home">Home</a></li>
+            <li><a href="./" class="home">Home</a></li>
             <li>
                 <div class="dropdown_navlink">
                     <button class="services_btn">
-                        <span>Services</span><img src="https://everestmena.com/assets/down_icon.png" alt="" class="downicon">
+                        <span>Services</span><img src="./assets/down_icon.png" alt="" class="downicon">
                     </button>
                         <ul class="dropdown">
                             <li class="dropdown_top">
@@ -187,13 +187,13 @@ function googleTranslateElementInit() {
                                         through assurance and help
                                          clients transform, grow and
                                          operate.</span>
-                                         <a href="https://everestmena.com/#id_service" class="explore_btn">Explore</a>
+                                         <a href="./#id_service" class="explore_btn">Explore</a>
                                 </div>
                             </li>
                             <li class="dropdown_center">
                                 <ul class="center_content">
                                     <li class="dropdown_services_list">
-                                        <a href="https://everestmena.com/services/accounting" class="services_link">
+                                        <a href="./services/accounting" class="services_link">
                                             <div class="service_shape"></div>
                                             <div class="dropdown_service">
                                                 <span class="title">Accounting</span>
@@ -201,7 +201,7 @@ function googleTranslateElementInit() {
                                         </a>
                                     </li>
                                     <li class="dropdown_services_list">
-                                        <a href="https://everestmena.com/services/tax" class="services_link">
+                                        <a href="./services/tax" class="services_link">
                                             <div class="service_shape"></div>
                                             <div class="dropdown_service">
                                                 <span class="title">Tax</span>
@@ -209,7 +209,7 @@ function googleTranslateElementInit() {
                                         </a>
                                     </li>
                                     <li class="dropdown_services_list">
-                                        <a href="https://everestmena.com/services/consulting" class="services_link">
+                                        <a href="./services/consulting" class="services_link">
                                             <div class="service_shape"></div>
                                             <div class="dropdown_service">
                                                 <span class="title">Consulting</span>
@@ -217,7 +217,7 @@ function googleTranslateElementInit() {
                                         </a>
                                     </li>
                                     <li class="dropdown_services_list">
-                                        <a href="https://everestmena.com/services/managed-services" class="services_link">
+                                        <a href="./services/managed-services" class="services_link">
                                             <div class="service_shape"></div>
                                             <div class="dropdown_service">
                                                 <span class="title">Managed Services</span>
@@ -230,12 +230,12 @@ function googleTranslateElementInit() {
                                 <div class="bottom_content">
                                     <span class="dropdown_heading">Highlights</span>
                                     <div class="bottom_list">    
-                                        <a href="https://everestmena.com/services/consulting" class="right_list_item">Cybersecurity</a>
-                                        <a href="https://everestmena.com/services/consulting" class="right_list_item">Resilience</a>
-                                        <a href="https://everestmena.com/services/consulting" class="right_list_item">Digital Transformation</a>
-                                        <a href="https://everestmena.com/services/accounting" class="right_list_item">Accounting And Assurance</a>
-                                        <a href="https://everestmena.com/services/tax" class="right_list_item">Tax Management</a>
-                                        <a href="https://everestmena.com/services/managed-services" class="right_list_item">Trusted Alliances</a>
+                                        <a href="./services/consulting" class="right_list_item">Cybersecurity</a>
+                                        <a href="./services/consulting" class="right_list_item">Resilience</a>
+                                        <a href="./services/consulting" class="right_list_item">Digital Transformation</a>
+                                        <a href="./services/accounting" class="right_list_item">Accounting And Assurance</a>
+                                        <a href="./services/tax" class="right_list_item">Tax Management</a>
+                                        <a href="./services/managed-services" class="right_list_item">Trusted Alliances</a>
                                     </div>
                                 </div>
                             </li>
@@ -243,11 +243,11 @@ function googleTranslateElementInit() {
                 </div>
                 
             </li>
-            <li><a href="https://everestmena.com/insights" class="insights">Insights</a></li>
-            <li><a href="https://everestmena.com/industries" class="Industries">Industries</a></li>
-            <li><a href="https://everestmena.com/about" class="about">About</a></li>
-            <li><a href="https://everestmena.com/careers" class="careers">Careers</a></li>
-            <li><a href="https://everestmena.com/rfp-form" class="rfp_from">Submit RFP</a></li>
+            <li><a href="./insights" class="insights">Insights</a></li>
+            <li><a href="./industries" class="Industries">Industries</a></li>
+            <li><a href="./about" class="about">About</a></li>
+            <li><a href="./careers" class="careers">Careers</a></li>
+            <li><a href="./rfp-form" class="rfp_from">Submit RFP</a></li>
         </ul>
         
     </div>
@@ -265,10 +265,10 @@ function googleTranslateElementInit() {
                     <a href="https://everestmena.com">Home</a>
                 </li>
                 <li class="link_text">
-                    <a href="https://everestmena.com/rfp-form">Submit RFP</a>
+                    <a href="./rfp-form">Submit RFP</a>
                 </li>
                 <li class="link_text">
-                    <a href="https://everestmena.com/contact-us">Contact Us</a>
+                    <a href="./contact-us">Contact Us</a>
                 </li>
             </ul>
         </li>
@@ -276,16 +276,16 @@ function googleTranslateElementInit() {
             <span class="title">Everest</span>
             <ul class="links">
                 <li class="link_text">
-                    <a href="https://everestmena.com/about">About Everest</a>
+                    <a href="./about">About Everest</a>
                 </li>
                 <li class="link_text">
-                    <a href="https://everestmena.com/insights">Everest Insights</a>
+                    <a href="./insights">Everest Insights</a>
                 </li>
                 <li class="link_text">
-                    <a href="https://everestmena.com/industries">Everest Industries</a>
+                    <a href="./industries">Everest Industries</a>
                 </li>
                 <li class="link_text">
-                    <a href="https://everestmena.com/office-locator">Office Locator</a>
+                    <a href="./office-locator">Office Locator</a>
                 </li>
             </ul>
         </li>
@@ -293,16 +293,16 @@ function googleTranslateElementInit() {
             <span class="title">Services</span>
             <ul class="links">
                 <li class="link_text">
-                    <a href="https://everestmena.com/services/accounting">Accounting</a>
+                    <a href="./services/accounting">Accounting</a>
                 </li>
                 <li class="link_text">
-                    <a href="https://everestmena.com/services/tax">Tax</a>
+                    <a href="./services/tax">Tax</a>
                 </li>
                 <li class="link_text">
-                    <a href="https://everestmena.com/services/consulting">Consulting</a>
+                    <a href="./services/consulting">Consulting</a>
                 </li>
                 <li class="link_text">
-                    <a href="https://everestmena.com/services/managed-services">Managed Services</a>
+                    <a href="./services/managed-services">Managed Services</a>
                 </li>
             </ul>
         </li>
@@ -310,10 +310,10 @@ function googleTranslateElementInit() {
             <span class="title">Careers</span>
             <ul class="links">
                 <li class="link_text">
-                    <a href="https://everestmena.com/careers">Careers</a>
+                    <a href="./careers">Careers</a>
                 </li>
                 <li class="link_text">
-                    <a href="https://everestmena.com/careers">Job Search</a>
+                    <a href="./careers">Job Search</a>
                 </li>
             </ul>
         </li>

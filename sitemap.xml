@@ -8,62 +8,62 @@
 
 
 <url>
-  <loc>https://everestmena.com/</loc>
+  <loc>./</loc>
   <lastmod>2024-05-22T00:50:12+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://everestmena.com/services/accounting</loc>
+  <loc>./services/accounting</loc>
   <lastmod>2024-05-22T01:01:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://everestmena.com/services/tax</loc>
+  <loc>./services/tax</loc>
   <lastmod>2024-05-22T01:02:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://everestmena.com/services/consulting</loc>
+  <loc>./services/consulting</loc>
   <lastmod>2024-05-22T01:01:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://everestmena.com/services/managed-services</loc>
+  <loc>./services/managed-services</loc>
   <lastmod>2024-05-22T01:02:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://everestmena.com/Insights/future-of-data-privacy</loc>
+  <loc>./Insights/future-of-data-privacy</loc>
   <lastmod>2024-05-22T01:07:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://everestmena.com/Insights/unlock-your-business</loc>
+  <loc>./Insights/unlock-your-business</loc>
   <lastmod>2024-05-22T01:06:32+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://everestmena.com/Insights/cyber-and-privacy</loc>
+  <loc>./Insights/cyber-and-privacy</loc>
   <lastmod>2024-05-22T01:07:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://everestmena.com/Insights/defending-against-cyber</loc>
+  <loc>./Insights/defending-against-cyber</loc>
   <lastmod>2024-05-22T01:07:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://everestmena.com/Insights/empower-business</loc>
+  <loc>./Insights/empower-business</loc>
   <lastmod>2024-05-22T01:07:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://everestmena.com/Insights/essential-tax-planning</loc>
+  <loc>./Insights/essential-tax-planning</loc>
   <lastmod>2024-05-22T01:07:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://everestmena.com/Insights/mastering-desruption</loc>
+  <loc>./Insights/mastering-desruption</loc>
   <lastmod>2024-05-22T01:05:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>

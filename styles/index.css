@@ -156,7 +156,7 @@ li{
 
 .Homepage_Content{
     display: flex;
-    background-image: url(https://everestmena.com/assets/Content_Home.png);
+    background-image: url(./assets/Content_Home.png);
     background-attachment: fixed;
     background-size: 100%;
     justify-content: center;
