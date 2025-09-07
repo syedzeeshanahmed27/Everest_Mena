@@ -50,7 +50,7 @@ function googleTranslateElementInit() {
     var nav = `<nav>
     <div class="wrapper">
         <div class="logos">
-            <a href="https://everestmena.com/"><img src="https://everestmena.com/assets/Logo_1.png" alt="" class="logo1"></a>
+            <a href="https://everestmena.com/"><img src="./assets/Logo_1.png" alt="" class="logo1"></a>
         </div>
         <ul class="navlinks">
             <li><a href="https://everestmena.com/" class="home">Home</a></li>
