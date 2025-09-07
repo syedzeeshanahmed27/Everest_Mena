@@ -27,7 +27,7 @@ li{
 
 .Homepage_Content{
     display: flex;
-    background-image: url(./assets/Content_industries.png);
+    background-image: url(../assets/Content_industries.png);
     background-attachment: fixed;
     background-size: 100%;
     justify-content: center;
