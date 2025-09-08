@@ -316,7 +316,7 @@ var nav_bar_code = `<nav>
     font-weight: 600;
 ">Asia : Pakistan </a>
             <a href="tel:0334 3336050">+92 334 3336050 </a> 
-        <a>      B7, Crystal Court, Street 5, Block 5 Clifton, Karachi, Karachi City, Sindh
+        <a>      B7, Crystal Court, Street 5, Block 5 Clifton, Karachi City, Sindh
 </a>
         </li>
        
@@ -332,6 +332,7 @@ var nav_bar_code = `<nav>
 
 document.getElementById("navbar").innerHTML = nav_bar_code;
 document.getElementById("footer_content").innerHTML = footer_code;
+
 
 
 
