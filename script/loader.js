@@ -1,14 +1,28 @@
+let homeLink = "/"; // default for production (Hostinger)
+
+// For GitHub Pages
+if (window.location.hostname.includes("github.io")) {
+  homeLink = "/Everest_Mena/";
+}
+
+// For localhost (Live Server)
+if (window.location.hostname === "127.0.0.1" || window.location.hostname === "localhost") {
+  homeLink = "/Everest_Mena/";
+}
+
+
+
 var nav_bar_code = `<nav>
     <div class="wrapper">
         <div class="logos">
-            <a href="/Everest_Mena"><img src="/Everest_Mena/assets/Logo_1.png" alt="" class="logo1"></a>
+            <a href="${homeLink}"><img src="${homeLink}assets/Logo_1.png" alt="" class="logo1"></a>
         </div>
         <ul class="navlinks">
-            <li><a href="/Everest_Mena" class="home">Home</a></li>
+            <li><a href="${homeLink}" class="home">Home</a></li>
             <li>
                 <div class="dropdown_navlink">
                     <button class="services_btn">
-                        <span>Services</span><img src="/Everest_Mena/assets/down_icon.png" alt="" class="downicon">
+                        <span>Services</span><img src="${homeLink}assets/down_icon.png" alt="" class="downicon">
                     </button>
                         <ul class="dropdown">
                             <li class="dropdown_leftside">
@@ -21,13 +35,13 @@ var nav_bar_code = `<nav>
                                         through assurance and help
                                          clients transform, grow and
                                          operate.</span>
-                                         <a href="/Everest_Mena/#id_service" class="explore_btn">Explore</a>
+                                         <a href="${homeLink}#id_service" class="explore_btn">Explore</a>
                                 </div>
                             </li>
                             <li class="dropdown_center">
                                 <ul class="center_content">
                                  <li class="dropdown_services_list">
-                                        <a href="/Everest_Mena/services/consulting.html" class="services_link">
+                                        <a href="${homeLink}services/consulting.html" class="services_link">
                                             <div class="service_shape"></div>
                                             <div class="dropdown_service">
                                                 <span class="title">Consulting</span>
@@ -35,7 +49,7 @@ var nav_bar_code = `<nav>
                                         </a>
                                     </li>
                                     <li class="dropdown_services_list">
-                                        <a href="/Everest_Mena/Insights/defending-against-cyber.html" class="services_link">
+                                        <a href="${homeLink}Insights/defending-against-cyber.html" class="services_link">
                                             <div class="service_shape"></div>
                                             <div class="dropdown_service">
                                                 <span class="title">Cyber Security</span>
@@ -43,7 +57,7 @@ var nav_bar_code = `<nav>
                                         </a>
                                     </li>
                                     <li class="dropdown_services_list">
-                                        <a href="/Everest_Mena/services/managed-services.html" class="services_link">
+                                        <a href="${homeLink}services/managed-services.html" class="services_link">
                                             <div class="service_shape"></div>
                                             <div class="dropdown_service">
                                                 <span class="title">Managed Services</span>
@@ -56,12 +70,12 @@ var nav_bar_code = `<nav>
                                 <div class="right_content">
                                     <span class="dropdown_heading">Highlights</span>
                                     <div class="right_list">    
-                                        <a href="/Everest_Mena/services/consulting.html" class="right_list_item">Cybersecurity</a>
-                                        <a href="/Everest_Mena/services/consulting.html" class="right_list_item">Resilience</a>
-                                        <a href="/Everest_Mena/services/consulting.html" class="right_list_item">Digital Transformation</a>
-                                        <a href="/Everest_Mena/services/accounting.html" class="right_list_item">Accounting And Assurance</a> 
-                                         <a href="/Everest_Mena/services/tax.html" class="right_list_item">Tax Management</a>
-                                        <a href="/Everest_Mena/services/managed-services.html" class="right_list_item">Trusted Alliances</a>
+                                        <a href="${homeLink}services/consulting.html" class="right_list_item">Cybersecurity</a>
+                                        <a href="${homeLink}services/consulting.html" class="right_list_item">Resilience</a>
+                                        <a href="${homeLink}services/consulting.html" class="right_list_item">Digital Transformation</a>
+                                        <a href="${homeLink}services/accounting.html" class="right_list_item">Accounting And Assurance</a> 
+                                         <a href="${homeLink}services/tax.html" class="right_list_item">Tax Management</a>
+                                        <a href="${homeLink}services/managed-services.html" class="right_list_item">Trusted Alliances</a>
                                     </div>
                                 </div>
                             </li>
@@ -69,11 +83,11 @@ var nav_bar_code = `<nav>
                 </div>
                 
             </li>
-            <li><a href="/Everest_Mena/insights.html" class="insights">Insights</a></li>
-            <li><a href="/Everest_Mena/industries.html" class="Industries">Industries</a></li>
-            <li><a href="/Everest_Mena/about.html" class="about">About</a></li>
-            <li><a href="/Everest_Mena/careers.html" class="careers">Careers</a></li>
-            <li><a href="/Everest_Mena/rfp-form.html" class="rfp_from">Submit RFP</a></li>
+            <li><a href="${homeLink}insights.html" class="insights">Insights</a></li>
+            <li><a href="${homeLink}industries.html" class="Industries">Industries</a></li>
+            <li><a href="${homeLink}about.html" class="about">About</a></li>
+            <li><a href="${homeLink}careers.html" class="careers">Careers</a></li>
+            <li><a href="${homeLink}rfp-form.html" class="rfp_from">Submit RFP</a></li>
         </ul>
         <div class="language_selector" onclick="choose_language(1)">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -114,7 +128,7 @@ var nav_bar_code = `<nav>
             <a href="javascript:void(0)" class="closesidebar" onclick="togglesidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
         </div>
         <ul class="navlinks">
-            <li><a href="/Everest_Mena" class="home">Home</a></li>
+            <li><a href="${homeLink}" class="home">Home</a></li>
             <li>
                 <div class="dropdown_navlink">
                     <button class="services_btn">
@@ -130,13 +144,13 @@ var nav_bar_code = `<nav>
                                         through assurance and help
                                          clients transform, grow and
                                          operate.</span>
-                                         <a href="./#id_service" class="explore_btn">Explore</a>
+                                         <a href="${homeLink}#id_service" class="explore_btn">Explore</a>
                                 </div>
                             </li>
                             <!--<li class="dropdown_center">
                                 <ul class="center_content">
                                     <li class="dropdown_services_list">
-                                        <a href="/Everest_Mena/services/accounting.html" class="services_link">
+                                        <a href="${homeLink}services/accounting.html" class="services_link">
                                             <div class="service_shape"></div>
                                             <div class="dropdown_service">
                                                 <span class="title">Accounting</span>
@@ -144,7 +158,7 @@ var nav_bar_code = `<nav>
                                         </a>
                                     </li>
                                     <li class="dropdown_services_list">
-                                        <a href="/Everest_Mena/services/tax.html" class="services_link">
+                                        <a href="${homeLink}services/tax.html" class="services_link">
                                             <div class="service_shape"></div>
                                             <div class="dropdown_service">
                                                 <span class="title">Tax</span>
@@ -152,7 +166,7 @@ var nav_bar_code = `<nav>
                                         </a>
                                     </li> -->
                                     <li class="dropdown_services_list">
-                                        <a href="/Everest_Mena/services/consulting.html" class="services_link">
+                                        <a href="${homeLink}services/consulting.html" class="services_link">
                                             <div class="service_shape"></div>
                                             <div class="dropdown_service">
                                                 <span class="title">Consulting</span>
@@ -160,7 +174,7 @@ var nav_bar_code = `<nav>
                                         </a>
                                     </li>
                                     <li class="dropdown_services_list">
-                                        <a href="/Everest_Mena/services/managed-services.html" class="services_link">
+                                        <a href="${homeLink}services/managed-services.html" class="services_link">
                                             <div class="service_shape"></div>
                                             <div class="dropdown_service">
                                                 <span class="title">Managed Services</span>
@@ -173,12 +187,12 @@ var nav_bar_code = `<nav>
                                 <div class="bottom_content">
                                     <span class="dropdown_heading">Highlights</span>
                                     <div class="bottom_list">    
-                                        <a href="/Everest_Mena/services/consulting.html" class="right_list_item">Cybersecurity</a>
-                                        <a href="/Everest_Mena/services/consulting.html" class="right_list_item">Resilience</a>
-                                        <a href="/Everest_Mena/services/consulting.html" class="right_list_item">Digital Transformation</a>
-                                        <a href="/Everest_Mena/services/accounting.html" class="right_list_item">Accounting And Assurance</a>
-                                        <a href="/Everest_Mena/services/tax.html" class="right_list_item">Tax Management</a> 
-                                        <a href="/Everest_Mena/services/managed-services.html" class="right_list_item">Trusted Alliances</a>
+                                        <a href="${homeLink}services/consulting.html" class="right_list_item">Cybersecurity</a>
+                                        <a href="${homeLink}services/consulting.html" class="right_list_item">Resilience</a>
+                                        <a href="${homeLink}services/consulting.html" class="right_list_item">Digital Transformation</a>
+                                        <a href="${homeLink}services/accounting.html" class="right_list_item">Accounting And Assurance</a>
+                                        <a href="${homeLink}services/tax.html" class="right_list_item">Tax Management</a> 
+                                        <a href="${homeLink}services/managed-services.html" class="right_list_item">Trusted Alliances</a>
                                     </div>
                                 </div>
                             </li>
@@ -186,11 +200,11 @@ var nav_bar_code = `<nav>
                 </div>
                 
             </li>
-          <!--  <li><a href="/Everest_Mena/insights.html" class="insights">Insights</a></li>
-            <li><a href="/Everest_Mena/industries.html" class="Industries">Industries</a></li>
-            <li><a href="/Everest_Mena/about.html" class="about">About</a></li>
-            <li><a href="/Everest_Mena/careers.html" class="careers">Careers</a></li>
-            <li><a href="/Everest_Mena/rfp-form.html" class="rfp_from">Submit RFP</a></li>-->
+          <!--  <li><a href="${homeLink}insights.html" class="insights">Insights</a></li>
+            <li><a href="${homeLink}industries.html" class="Industries">Industries</a></li>
+            <li><a href="${homeLink}about.html" class="about">About</a></li>
+            <li><a href="${homeLink}careers.html" class="careers">Careers</a></li>
+            <li><a href="${homeLink}rfp-form.html" class="rfp_from">Submit RFP</a></li>-->
         </ul>
         
     </div>
@@ -202,13 +216,13 @@ var nav_bar_code = `<nav>
             <span class="title">Main</span>
             <ul class="links">
                 <li class="link_text">
-                    <a href="/Everest_Mena">Home</a>
+                    <a href="${homeLink}">Home</a>
                 </li>
                 <li class="link_text">
-                    <a href="/Everest_Mena/rfp-form.html">Submit RFP</a>
+                    <a href="${homeLink}rfp-form.html">Submit RFP</a>
                 </li>
                 <li class="link_text">
-                    <a href="/Everest_Mena/contact-us.html">Contact Us</a>
+                    <a href="${homeLink}contact-us.html">Contact Us</a>
                 </li>
             </ul>
         </li>
@@ -216,16 +230,16 @@ var nav_bar_code = `<nav>
             <span class="title">Everest</span>
             <ul class="links">
                 <li class="link_text">
-                    <a href="/Everest_Mena/about.html">About Everest</a>
+                    <a href="${homeLink}about.html">About Everest</a>
                 </li>
                 <li class="link_text">
-                    <a href="/Everest_Mena/insights.html">Everest Insights</a>
+                    <a href="${homeLink}insights.html">Everest Insights</a>
                 </li>
                 <li class="link_text">
-                    <a href="/Everest_Mena/industries.html">Everest Industries</a>
+                    <a href="${homeLink}industries.html">Everest Industries</a>
                 </li>
                 <li class="link_text">
-                    <a href="/Everest_Mena/office-locator.html">Office Locator</a>
+                    <a href="${homeLink}office-locator.html">Office Locator</a>
                 </li>
             </ul>
         </li>
@@ -233,19 +247,19 @@ var nav_bar_code = `<nav>
             <span class="title">Services</span>
             <ul class="links">
  <li class="link_text">
-                    <a href="/Everest_Mena/services/accounting.html">Accounting</a>
+                    <a href="${homeLink}services/accounting.html">Accounting</a>
                 </li>
                 <li class="link_text">
-                    <a href="/Everest_Mena/services/tax.html">Tax</a>
+                    <a href="${homeLink}services/tax.html">Tax</a>
                 </li>
                <li class="link_text">
-                    <a href="/Everest_Mena/services/consulting.html">Consulting</a>
+                    <a href="${homeLink}services/consulting.html">Consulting</a>
                 </li>
                 <li class="link_text">
-                    <a href="/Everest_Mena/Insights/defending-against-cyber.html">Cyber Security</a>
+                    <a href="${homeLink}Insights/defending-against-cyber.html">Cyber Security</a>
                 </li>
                 <li class="link_text">
-                    <a href="/Everest_Mena/services/managed-services.html">Managed Services</a>
+                    <a href="${homeLink}services/managed-services.html">Managed Services</a>
                 </li>
             </ul>
         </li>
@@ -253,10 +267,10 @@ var nav_bar_code = `<nav>
             <span class="title">Careers</span>
             <ul class="links">
                 <li class="link_text">
-                    <a href="/Everest_Mena/careers.html">Careers</a>
+                    <a href="${homeLink}careers.html">Careers</a>
                 </li>
                 <li class="link_text">
-                    <a href="/Everest_Mena/careers.html">Job Search</a>
+                    <a href="${homeLink}careers.html">Job Search</a>
                 </li>
             </ul>
         </li>
