@@ -321,7 +321,7 @@ var nav_bar_code = `<nav>
         <a>BCCI Tower 2nd Floor, Office number 21, Building number 519, Road 1010, Block 410, Manama - kingdom of Bahrain</a>
         <br>
 <a href="tel:(966) 53529-5011">+966 523529-5011 </a>
-            <a>Al Olaya, Riyadh 12212, Saudi Arabia</a>
+            <a>Building No: 7135, King Abdul Aziz Street, Al Arid District, Postal Code: 13342, Riyadh, Kingdom of Saudi Arabia</a>
         </li>         
         <li class="link_text">
             <a style="
@@ -345,6 +345,7 @@ var nav_bar_code = `<nav>
 
 document.getElementById("navbar").innerHTML = nav_bar_code;
 document.getElementById("footer_content").innerHTML = footer_code;
+
 
 
 
